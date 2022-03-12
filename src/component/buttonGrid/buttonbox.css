@@ -1,0 +1,37 @@
+.gridbox{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    background-color:grey;
+    padding:10px;
+}
+.row1, .row2, .row3, .row4{
+    display: flex;
+    justify-content:space-around;
+}
+.col1,.col2, .col3, .col4{
+    width:68px;
+    height:50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    background-color: darkcyan;
+    border-radius: 20px;
+    margin:10px;
+    color: white;
+    font-size: 30px;
+}
+
+.col1:hover{
+   background-color: grey;
+}
+.col2:hover{
+    background-color: grey;
+}
+.col3:hover{
+background-color: grey;
+}
+.col4:hover{
+background-color: grey;
+}
